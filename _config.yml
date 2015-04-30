@@ -1,0 +1,31 @@
+name: "limnobotics"
+description: "Robotics meets Limnology"
+
+url: "http://localhost:4000"
+
+
+# change this if the root directory is not the root of the server
+baseurl: ""
+
+# markdown specifications
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+
+# custom menu setup
+menu:
+  - text: Home
+    url: /
+  - text: Publications
+    url: /publications/
+  - text: Media Gallery 
+    url: /media/
+#  - text: Something
+#    url: /something/
+#    subitems:
+#      - text: something else 
+#        url: /something/else/
+
+
+

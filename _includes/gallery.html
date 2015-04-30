@@ -1,0 +1,27 @@
+<div class="row">
+{% for image in include.gallery.images %}
+  {% comment %} first decide wether it is an image or a youtube reference {% endcomment %}
+  {% if image.isvideo %}
+    {% assign class="fancybox fancybox.iframe" %}
+    {% assign resource = "https://www.youtube.com/embed/" | append: image.path %}
+    {% assign thumbnail = "http://img.youtube.com/vi/" | append: image.path  | append: "/0.jpg" %}
+    {% assign width = "200" %}
+  {% else %}
+    {% assign class="fancybox" %}
+    {% assign width = "130" %}
+    {% comment %} the resource is the image (full scale) that we link to. The initial guess is that there
+    is no thumbnail available so we assume that we'll have to use the fullscale image {% endcomment %}
+    {% assign resource = site.baseurl | append: image.path %}
+    {% assign thumbnail = site.baseurl | append: image.path %}
+    {% comment %} Build the (potential) thumbnail filename {% endcomment %}
+    {% assign parts = image.path | split: "." %}
+    {% assign extension = parts | last | prepend: "." %}
+    {% assign thumbfile = image.path | replace: extension, '-thumb' | append: extension %}
+    {% comment %} Check if the thumbnail file exists, if so use it {% endcomment %}
+    {% for file in site.static_files %}{% if file.path == thumbfile %}{% assign thumbnail = site.baseurl | append: thumbfile %}{% endif %}{% endfor %}
+  {% endif %}
+  <a class="{{ class }}" rel="{{ include.gallery.name }}" href="{{ resource }}" title="{{ image.caption }}">
+    <img src="{{ thumbnail }}" width="{{ width }}" style="float: left">
+  </a>
+{% endfor %}
+</div>

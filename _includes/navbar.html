@@ -1,0 +1,22 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+{% assign margin = include.level | times: 15  %}
+
+
+{% for item in include.nav %}
+  {% if item.url == navurl %}
+  <li class="active"> 
+  <a href="{{ site.baseurl }}{{ item.url }}" style="margin-left: {{ margin }}px;">
+        <b>{{ item.text }}</b>
+  {% else %}
+    <li>
+    <a href="{{ site.baseurl }}{{ item.url }}" style="margin-left: {{ margin }}px;">
+        {{ item.text }}
+  {% endif %}
+      </a>
+  </li>
+  {% if item.subitems and navurl contains item.url %}
+      {% assign nextlevel = include.level | plus: 1 %}
+      {% include navbar.html nav=item.subitems level=nextlevel %}
+  {% endif %}
+{% endfor %}
+
