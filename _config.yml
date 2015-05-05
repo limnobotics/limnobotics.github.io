@@ -15,17 +15,36 @@ permalink: pretty
 
 # custom menu setup
 menu:
-  - text: Home
+  - text: 
+      en: Home
+      fr: Accueil
+      de: Startseite
     url: /
-  - text: Publications
+  - text: 
+       en: Publications
+       fr: Publications
+       de: Publikationen
     url: /publications/
-  - text: Media Gallery 
+  - text: 
+       en: Gallery 
+       fr: Gallerie 
+       de: Gallerie 
     url: /media/
 #  - text: Something
 #    url: /something/
 #    subitems:
 #      - text: something else 
 #        url: /something/else/
+#
+main_language: en
+languages:
+  - id: de
+    name: Deutsch
+  - id: en
+    name: English
+  - id: fr
+    name: Français
+
 
 
 

@@ -1,16 +1,19 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 {% assign margin = include.level | times: 15  %}
 
+{% assign available_langs = site.languages | map: "id" %}
 
 {% for item in include.nav %}
-  {% if item.url == navurl %}
+  {% capture linkurl %}/{{ site.baseurl }}{{ page.language }}{{ item.url }}{% endcapture %}
+  {% if linkurl == navurl %}
+
   <li class="active"> 
-  <a href="{{ site.baseurl }}{{ item.url }}" style="margin-left: {{ margin }}px;">
-        <b>{{ item.text }}</b>
+  <a href="{{ linkurl }}" style="margin-left: {{ margin }}px;">
+    <b>{{ item.text | map: page.language }}</b>
   {% else %}
     <li>
-    <a href="{{ site.baseurl }}{{ item.url }}" style="margin-left: {{ margin }}px;">
-        {{ item.text }}
+    <a href="{{ linkurl }}" style="margin-left: {{ margin }}px;">
+      {{ item.text | map: page.language }}
   {% endif %}
       </a>
   </li>

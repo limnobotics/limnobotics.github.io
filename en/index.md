@@ -1,6 +1,7 @@
 ---
 title: The limnobotics project
 layout: vertical 
+language: en
 ---
 
 # Limnobotics 
@@ -15,6 +16,3 @@ This project is a collaboration between the [Limnological Station](http://www.li
 
 This project is funded by [SNF](http://www.snf.ch/en/Pages/default.aspx).
 
------
-
-[![UZH Logo]({{ site.baseurl }}/assets/uzh_logo_e_pos.svg){: .float-left height="50px"}](http://www.limnology.ch)[![ETH Zurich]({{ site.baseurl }}/assets/eth_logo_kurz_pos.svg){: .float-right height="25px"}](http://www.ethz.ch)[![ASL Logo]({{ site.baseurl }}/assets/asl_logo_bottom.svg){: .float-right height="40px"}](http://www.asl.ethz.ch)

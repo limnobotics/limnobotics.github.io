@@ -1,12 +1,13 @@
 ---
 title: Publications
 layout: vertical
+language: fr 
 ---
 
 # Publications
 -----
 
-### Scientific journals
+### Articles dans des revues 
 Garneau, M. È., Posch, T., Hitz, G., Pomerleau, F., Pradalier, C., Siegwart, R., & Pernthaler, J. (2013). Short‐term displacement of Planktothrix rubescens (cyanobacteria) in a pre‐alpine lake observed using an autonomous sampling platform. *Limnology and Oceanography*, 58(5), 1892-1906.
 
 
@@ -14,7 +15,7 @@ Hitz, G., Pomerleau, F., Garneau, M. E., Pradalier, C., Posch, T., Pernthaler, J
 
 -----
 
-### Conference proceedings
+### Articles dans des revues des conférences
 
 Hitz, G., Gotovos, A., Pomerleau, F., Garneau, M. E., Pradalier, C., Krause, A., & Siegwart, R. Y. (2014, May). Fully autonomous focused exploration for robotic environmental monitoring. In *Robotics and Automation (ICRA), 2014 IEEE International Conference on* (pp. 2658-2664). IEEE.
 
@@ -24,7 +25,7 @@ Gotovos, A., Casati, N., Hitz, G., & Krause, A. (2013, August). Active learning 
 
 ---
 
-### Conferences
+### Conférences
 
 Garneau M. È., Posch T., Pradalier C., Pomerleau F., Hitz G., Siegwart R., Pernthaler J. (2011) Limnobotics: Understanding blooms of toxic freshwater cyanobacteria using an autonomous sampling platform and molecular strain typing. *Swiss Microbial Ecology Group Meeting*, Feb 2-4, Engelberg, Switzerland [![File](http://www.adobe.com/images/pdficon_small.png){: .inlineimage}]({{ site.baseurl }}/assets/garneau_sme2011poster.pdf)
 
