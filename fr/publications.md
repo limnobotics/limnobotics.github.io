@@ -11,7 +11,7 @@ language: fr
 {% include publication_list.md list=site.data.publications.journals %}
 -----
 
-### Articles dans des revues des conférences
+### Articles dans des revues de conférences
 {% include publication_list.md list=site.data.publications.proceedings %}
 -----
 
