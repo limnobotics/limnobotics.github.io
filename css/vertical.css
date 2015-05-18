@@ -134,3 +134,9 @@ img {
   text-decoration: none;
   background-color: #222222;
 }
+
+.people-role {
+  color: lightgrey;
+  font-weight: bold;
+  padding-left: 10px;
+}

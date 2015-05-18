@@ -9,8 +9,8 @@ baseurl: ""
 
 # markdown specifications
 markdown: kramdown
-kramdown:
-  input: GFM
+#kramdown:
+#  input: GFM
 permalink: pretty
 
 # custom menu setup
@@ -25,6 +25,11 @@ menu:
        fr: Publications
        de: Publikationen
     url: /publications/
+  - text:
+       en: People
+       fr: L'équipe
+       de: Das Team
+    url: /people/
   - text: 
        en: Gallery 
        fr: Gallerie 
