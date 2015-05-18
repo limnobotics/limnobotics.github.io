@@ -7,11 +7,11 @@ language: fr
 # Publications
 -----
 
-### Articles dans des revues 
+### Articles dans des revues spécialisées 
 {% include publication_list.md list=site.data.publications.journals %}
 -----
 
-### Articles dans des revues des conférences
+### Articles de conférences
 {% include publication_list.md list=site.data.publications.proceedings %}
 -----
 
