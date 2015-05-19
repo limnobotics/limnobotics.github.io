@@ -8,8 +8,10 @@ hasgallery: "True"
 # Medien
 -----
 
-### Fotos 
+### Der Roboter
 {% include gallery.html gallery=site.data.galleries.boat_pictures %}
+### Manuelles Messen
+{% include gallery.html gallery=site.data.galleries.sampling %}
 -----
 
 ### Videos 

@@ -8,8 +8,11 @@ hasgallery: "True"
 # Media Gallery 
 -----
 
-### Pictures
+### The robot
 {% include gallery.html gallery=site.data.galleries.boat_pictures %}
+### Manual sampling
+{% include gallery.html gallery=site.data.galleries.sampling %}
+
 -----
 
 ### Videos 

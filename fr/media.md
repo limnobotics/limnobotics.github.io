@@ -8,11 +8,13 @@ hasgallery: "True"
 # Gallerie 
 -----
 
-### Photos 
+### Le robot
 {% include gallery.html gallery=site.data.galleries.boat_pictures %}
+### La mesure manuelle 
+{% include gallery.html gallery=site.data.galleries.sampling %}
 -----
 
-### Videos 
+### Vidéos 
 {% include gallery.html gallery=site.data.galleries.videos %}
 
 

@@ -24,3 +24,12 @@ videos:
       isvideo: "True"
     - path: "xxsHFa6Tzcs"
       isvideo: "True"
+sampling:
+  name: "sampling_pictures"
+  images:
+    - path: "/assets/sampling01.jpg"
+    - path: "/assets/sampling02.jpg"
+    - path: "/assets/sampling03.jpg"
+    - path: "/assets/sampling04.jpg"
+    - path: "/assets/sampling05.jpg"
+    - path: "/assets/sampling06.jpg"
