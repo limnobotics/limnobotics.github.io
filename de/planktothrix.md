@@ -1,0 +1,29 @@
+---
+title: The limnobotics project
+layout: vertical 
+language: de 
+---
+
+# Planktothrix rubescens
+
+{: style="text-align: justify;" }
+*Planktothrix rubescens* (besser bekannt als [Burgunderblutalge](http://de.wikipedia.org/wiki/Burgunderblutalge)) ist ein fadenförmiges [Cyanobakterium](http://de.wikipedia.org/wiki/Cyanobakterien), das üblicherweise in Nährstoff-armen Seen der nördlichen Hemisphäre vorkommt vorkommt[^1]. Wie alle Cyanobakterien ist *Planktothrix rubescens* ein photosynthetisch aktiver Organismus, was bedeutet, dass er Sonnenlicht als Energiequelle durch Verwendung von Chlorophyll-a Pigmenten nutzt. *Planktothrix rubescens* besitzt jedoch auch rot gefärbte Pigmente, sogenannte [Phycoerythrine](http://de.wikipedia.org/wiki/Phycoerythrin), die den Zellen ihre charakteristische Rot-Färbung geben. Obwohl Cyanobakterien mikroskopisch kleine Organismen sind, können sie sich in grossen Mengen ansammeln und bilden sogenannte „Algenblüten“ entlang der Ufer, die mit dem bloßen Auge bereits gut zu sehen sind.
+
+{: style="text-align: justify;" }
+*Planktothrix rubescens* bildet sehr wirksame Giftstoffe, sogenannte [Microcystine](http://de.wikipedia.org/wiki/Microcystine), die bekanntermaßen in Wirbellosen und Wirbeltiere angereichert werden. Betroffen sind fast alle Organismen in Seen, wie z.B. Fische, Muscheln und Kleinkrebse. Eine Vergiftung von Tieren aber auch Menschen kann direkt durch den Verzehr von giftigen Cyanobakterien - Zellen oder indirekt durch den Verzehr von vergifteten aquatischen Organismen erfolgen. Im Zürichsee stellt *Planktothrix rubescens* mittlerweile den dominierenden Organismus der Algengemeinschaft dar[^2]. Der Zürichsee ist jedoch ein sehr beliebtes Erholungsgebiet und die wichtigste Trinkwasser-Ressource für die Stadt Zürich. Die Bedrohung durch Microcystine für dieses Erholungsgebiet und für die Trinkwassergewinnung ist auf jeden Fall zu beachten und ständig zu überprüfen[^3]. So überprüft die Wasserversorgung Zürich [WVZ](http://www.stadt-zuerich.ch/dib/de/index/wasserversorgung.html) ständig die Qualität des Trinkwassers auch bezüglich Microcystinen.
+
+{: style="text-align: justify;" }
+Eine kürzlich veröffentlichte Studie[^4] von unserem Kollegen Thomas Posch hat aufgezeigt, dass *Planktothrix rubescens* im Zürichsee keine Abnahme in den letzten Jahrzehnten gezeigt hat, sondern sich aufgrund der zunehmenden Erwärmung des Seewassers durch den globalen Klimawandel stark vermehrt hat. Weitere Informationen hierzu finden Sie auf der Website der Universität Zürich unter dem Stichwort: [Klimaerwärmung schadet den Seen](http://www.mediadesk.uzh.ch/articles/2012/klimaerwaermung-schadet-den-seen.html)
+
+{: style="text-align: justify;" }
+Neue Studien haben gezeigt, dass *Planktothrix rubescens* in See jedoch häufig genetische Mutationen erkennen lassen, vor allem innerhalb jener Gene, die für die Microcystin Produktion verantwortlich sind[^5]. Diese Mutationen bewirken, dass manche *Planktothrix* - Stämme nicht mehr Microcystine bilden können, aber diese Stämme jedoch beginnen, andere toxische Verbindungen zu produzieren. Allerdings ist es nicht möglich, diese Stämme mikroskopisch zu unterscheiden. Hier hilft nur die Verwendung von molekularbiologischen Methoden um Mutationen in den Microcystin-Genen zu erkennen.
+
+{: style="text-align: justify;" }
+Unser Ziel ist es, jene Faktoren zu finden, die den ökologischen Erfolg der Microcystin-produzierenden gegenüber den nicht-produzierenden Stämmen regulieren. Methodisch kommen vor allem molekulare Techniken wie z.B. die [quantitative PCR](http://de.wikipedia.org/wiki/Real_Time_Quantitative_PCR) zum Einsatz. Die „Erfolgs-Faktoren“ sind derzeit noch weitgehend unbekannt, aber liegen sicher in einem Zusammenspiel mehrerer Parameter wie Temperatur, Lichtverhältnisse und Nährstoffe. Unsere Studie soll auch dazu beitragen, die biologische Funktion der Microcystine besser zu verstehen. Letztlich werden unsere molekularbiologischen Methoden wesentliche Instrumente für die Frühwarnung vor giftigen Planktothrix Massenvorkommen in natürlichen Gewässern und Trinkwasser Stauseen sein.
+
+
+[^1]: Sivonen, K., and G. Jones. 1999. Cyanobacterial toxins, p. 41--111. In: I. Chorus and J. Bertram (ed.), Toxic cyanobacteria in water: a guide to public health significance, monitoring and management. E&FN Spon, London. {% include extlink.md link="http://www.who.int/water_sanitation_health/resourcesquality/toxcyanobacteria.pdf" %}{: style="fontsize: 8pt;" }
+[^2]: Van den Wyngaert S, Salcher MM, Pernthaler J, Zeder M, Posch T (2011) Quantitative dominance of seasonally persistent filamentous cyanobacteria *Planktothrix rubescens* in the microbial assemblages of a temperate lake. *Limnology and Oceanography* 56:97-109. {% include extlink.md link="http://onlinelibrary.wiley.com/doi/10.4319/lo.2011.56.1.0097/abstract" %} 
+[^3]: Funari, E., and E. Testai. 2008. Human health risk assessment related to cyanotoxins exposure. *Critical Reviews in Toxicology* 38:97--125  {% include extlink.md link="http://www.researchgate.net/profile/Emanuela_Testai/publication/5592209_Human_health_risk_assessment_related_to_cyanotoxins_exposure/links/0912f50a34a1da8065000000.pdf" %}
+[^4]: Posch, T., O. Köster, M. M. Salcher, and J. Pernthaler. 2012. Harmful filamentous cyanobacteria favoured by reduced water turnover with lake warming. Nature Climate Change. doi:10.1038/nclimate1581. {% include extlink.md link="http://www.nature.com/nclimate/journal/v2/n11/full/nclimate1581.html" %}
+[^5]: Christiansen, G., R. Kurmayer, Q. Liu, and T. Börner. 2006. Transposons inactivate biosynthesis of the nonribosomal peptide microcystin in naturally occurring *Planktothrix* spp. Applied and Environmental Microbiology 72:117-123 {% include extlink.md link="http://aem.asm.org/content/72/1/117.short" %}

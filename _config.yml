@@ -21,6 +21,11 @@ menu:
       de: Startseite
     url: /
   - text: 
+      en: Planktothrix
+      fr: Planktothrix
+      de: Planktothrix
+    url: /planktothrix/
+  - text: 
        en: Publications
        fr: Publications
        de: Publikationen
