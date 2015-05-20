@@ -1,7 +1,11 @@
 {% capture old_lang_part %}/{{ page.language }}/{% endcapture %}
 {% assign available_langs = site.languages | map: "id" %}
 {% for lang in available_langs %}
-  {% capture lang_part %}/{{ lang }}/{% endcapture %}
-  <a href="{{ page.url | replace: old_lang_part, lang_part }}" class="language-link" >{{ lang }}</a>
+{% capture lang_part %}/{{ lang }}/{% endcapture %}
+  {% if lang_part == old_lang_part %}
+    <a href="{{ page.url | replace: old_lang_part, lang_part }}" class="language-link current-language-link" >{{ lang }}</a>
+  {% else %}
+    <a href="{{ page.url | replace: old_lang_part, lang_part }}" class="language-link" >{{ lang }}</a>
+  {% endif %}
 {% endfor %}
 

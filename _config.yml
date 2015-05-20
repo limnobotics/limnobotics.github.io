@@ -48,10 +48,10 @@ menu:
 #
 main_language: en
 languages:
-  - id: de
-    name: Deutsch
   - id: en
     name: English
+  - id: de
+    name: Deutsch
   - id: fr
     name: Français
 
