@@ -21,6 +21,13 @@ journals:
       Automation Magazine*, IEEE, 19(1), 62-72.
     link: > 
       http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6153016
+  - text: >
+      Hitz, G., Pomerleau, F., Colas, F., & Siegwart, R. (2015). Relaxing the
+      planar assumption: 3D state estimation for an autonomous surface vessel.
+      *The International Journal of Robotics Research*, first published on July
+      8, 2015 doi:10.1177/0278364915583680
+    link: >
+      http://ijr.sagepub.com/content/early/2015/07/06/0278364915583680.abstract
 
 proceedings:
   - text: >
