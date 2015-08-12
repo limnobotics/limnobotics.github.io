@@ -14,6 +14,12 @@ boat_pictures:
     - path: "/assets/pic7.jpg"
     - path: "/assets/pic8.jpg"
     - path: "/assets/pic9.jpg"
+    - path: "/assets/pic10.jpg"
+    - path: "/assets/pic11.jpg"
+    - path: "/assets/pic12.jpg"
+    - path: "/assets/pic13.jpg"
+    - path: "/assets/pic14.jpg"
+    - path: "/assets/pic15.jpg"
 videos:
   name: "videos"
   images:
