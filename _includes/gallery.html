@@ -21,7 +21,7 @@
     {% for file in site.static_files %}{% if file.path == thumbfile %}{% assign thumbnail = site.baseurl | append: thumbfile %}{% endif %}{% endfor %}
   {% endif %}
   <a class="{{ class }}" rel="{{ include.gallery.name }}" href="{{ resource }}" title="{{ image.caption | map: page.language }}">
-    <img src="{{ thumbnail }}" width="{{ width }}" style="float: left">
+    <img class="transparent-thumb float-left" src="{{ thumbnail }}" width="{{ width }}">
   </a>
 {% endfor %}
 </div>
